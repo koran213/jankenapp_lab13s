@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "gonta";
+  src: url(./FZゴンタかな.woff) format('woff');
+}
+@font-face {
+  font-family: "mushin";
+  src: url(./mushin_subset.woff);
+}
+
+body {
+  width: fit-content;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.sentai p {
+  font-family: "mushin";
+  color: red;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+ 
+}
+
+.lab13 p { 
+  font-family: "gonta";
+  color: red; 
+  font-size: 36px;
+  margin: 0;
+}
+
+.rangers_v {
+  padding-top: 10px; 
+}
+
+.words {
+  margin: 0;
+  text-align: center;
+
+}
+
+#dakara, #demo, #shikamo, #dakara, #tashika, #tsumari, #yappari, #tomoare {
+  background-image: url(../img/wood-board_w200h150.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  margin-right: 0;
+  font-size: 18px;
+  border-style: hidden;
+}
+
+li:hover {
+  font-size: 20px;
+}
+
+#sentense {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.akajusan {
+  font-size: 14px;
+  border: 2px red solid; 
+  width: 260px;
+  text-align:center;
+}
+
+.akajusan p {
+  margin: 2px;
+}
