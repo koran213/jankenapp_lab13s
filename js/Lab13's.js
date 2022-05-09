@@ -144,7 +144,7 @@ $('#demo').on('click', function(){
   if(n == 9){
     $('#phrase').html('無理しちゃいかん');
     $('#character').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
-    $('#comment').html('<p>ひっとやっすみ～</p>')       
+    $('#comment').html('<p>ひっとやっすみ ～</p>')       
   } 
   if(n == 10){
     $('#phrase').html('遊んじゃおう！');
