@@ -66,7 +66,7 @@ $('#dakara').on('click', function(){
     $('#comment').html('<p>そんなときもあるって</p>')        
   } 
   if(n == 12){
-    $('#phrase').html('ゴロゴロ～ダラダラ～');
+    $('#phrase').html('ゴロゴロ～ン');
     $('#character').html('<img src="./img/Ranger_green_w130.png" alt="">');       
     $('#comment').html('<p>ぐりんぐりーん</p>')        
   }
@@ -89,7 +89,7 @@ $('#dakara').on('click', function(){
   $('#demo, #shikamo, #tashika, #tsumari, #yappari, #tomoare').off('click');
 
   // document.getElementById("question").style.display="none";
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
@@ -157,7 +157,7 @@ $('#demo').on('click', function(){
     $('#comment').html('<p>そんなときもあるって</p>')  
   } 
   if(n == 12){
-    $('#phrase').html('ゴロゴロ～ダラダラ～');
+    $('#phrase').html('ゴロゴロ～ン');
     $('#character').html('<img src="./img/Ranger_green_w130.png" alt="">');       
     $('#comment').html('<p>ぐりんぐりーん</p>')        
   }
@@ -180,7 +180,7 @@ $('#demo').on('click', function(){
   $('#dakara, #shikamo, #tashika, #tsumari, #yappari, #tomoare').off('click')
 
   // document.getElementById("question").style.display="none";
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
@@ -216,7 +216,7 @@ $('#shikamo').on('click', function(){
   $('#dakara, #demo, #tashika, #tsumari, #yappari, #tomoare').off('click')
 
   // document.getElementById("question").style.display="none";
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
@@ -275,7 +275,7 @@ $('#tashika').on('click', function(){
   
   $('#dakara, #demo, #shikamo, #tsumari, #yappari, #tomoare').off('click')
 
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
@@ -343,7 +343,7 @@ $('#yappari').on('click', function(){
     $('#comment').html('<p>そんなときもあるって</p>')  
   } 
   if(n == 12){
-    $('#phrase').html('ゴロゴロ～ダラダラ～');
+    $('#phrase').html('ゴロゴロ～ン');
     $('#character').html('<img src="./img/Ranger_green_w130.png" alt="">');       
     $('#comment').html('<p>ぐりんぐりーん</p>')        
   }
@@ -366,7 +366,7 @@ $('#yappari').on('click', function(){
   $('#dakara, #demo, #shikamo, #tashika, #tsumari, #tomoare').off('click')
 
   // document.getElementById("question").style.display="none";
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
@@ -434,7 +434,7 @@ $('#tomoare').on('click', function(){
     $('#comment').html('<p>そんなときもあるって</p>')  
   } 
   if(n == 12){
-    $('#phrase').html('ゴロゴロ～ダラダラ～');
+    $('#phrase').html('ゴロゴロ～ン');
     $('#character').html('<img src="./img/Ranger_green_w130.png" alt="">');       
     $('#comment').html('<p>ぐりんぐりーん</p>')        
   }
@@ -457,7 +457,7 @@ $('#tomoare').on('click', function(){
   $('#dakara, #demo, #shikamo, #tashika, #tsumari, #yappari').off('click')
 
   // document.getElementById("question").style.display="none";
-  document.getElementById("question").innerHTML = "<p>こーじゃない？</p>";
+  document.getElementById("question").innerHTML = "<p>こんなん出たで</p>";
 
 });
 
