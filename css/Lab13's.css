@@ -8,48 +8,77 @@
 }
 
 @font-face {
-  font-family: "MkPOP";
-  src: url(./851MkPOP_101.woff);
+  font-family: "azuki";
+  src: url(./azukiLP.woff);
 }
 
-body {
-  width: fit-content;
+
+.wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.title {
+  width: 100%;
   text-align: center;
+}
+
+.sentai {
+  font-family: "mushin";
+  color: red;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+ }
+
+.lab13 { 
+  font-family: "gonta";
+  color: red; 
+  font-size: 52px;
+  margin: 0;
+}
+
+#rangers {
+  padding-top: 10px; 
+}
+
+#rangers :hover {
+  cursor: pointer;
+}
+
+.reset {
+  font-family: 'gonta';
+  color:blue;
+}
+
+.reset:hover{
+  color: red;
 }
 
 ul {
   list-style: none;
 }
 
-.sentai p {
-  font-family: "mushin";
-  color: red;
-  font-size: 36px;
-  font-weight: 300;
-  margin: 0;
- 
-}
-
-.lab13 p { 
-  font-family: "gonta";
-  color: red; 
-  font-size: 36px;
-  margin: 0;
-}
-
-.rangers_v {
-  padding-top: 10px; 
-}
-
 .words {
   margin: 0;
-  /* text-align: center; */
+  height:auto;
+  column-count: 3;
 }
 
-.words p {
+li {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 24px;
+}
+
+p {
   font-family: 'M PLUS 2', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.sentence {
+  display: flex;
 }
 
 #dakara, #demo, #shikamo, #dakara, #tashika, #tsumari, #yappari, #tomoare {
@@ -68,17 +97,33 @@ ul {
 }
 
 li:hover {
-  font-size: 20px;
+  font-size: 22px;
 }
 
-#sentense {
-  font-size: 20px;
-  font-weight: bold;
+.answer {
+  margin-left: 20px;
+}
+
+#phrase {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 28px;
+}
+
+#judgment {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #character {
-  font-family: 'M PLUS 2', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  width: fit-content;
+}
 
+#comment {
+  width: fit-content;
+}
+
+#comment p {
+  font-family: "azuki";
 }

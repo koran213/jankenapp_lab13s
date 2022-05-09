@@ -7,44 +7,48 @@
     <link rel="stylesheet" href="./css/Lab13's.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=M+PLUS+2&family=Yusei+Magic&display=swap" rel="stylesheet">
     <script src="./js/jquery-2.1.3.min.js"></script>
     <title>Gs_sentai</title>
   </head>
 
   <body>
 
-    <div class="title">
-      <div class="sentai"><p>ジーズ戦隊</p></div>
-      <div class="lab13"><p>ラボジューサン</p></div>
-      <div class="rangers_v"><img src="./img/Rangers_V_w200.png" alt=""></div>
+    <div class="wrap">
+
+      <main>
+        <div class="title">
+          <p class="sentai">ジーズ戦隊</p>
+          <p class="lab13">ラボジューサン</p>
+          <div id="rangers">
+            <img src="./img/Rangers_V_w200.png" id="rangers_v" alt="">
+            <div class="reset">RESET</div>
+          </div>
+        </div>     
+
+        <div id="question"><p>いまの気分に近いのは？</p></div>
+        <div class="sentence">
+          <ul class="words">
+            <div id="dakara"><li id="dakarat">だから</li></div>
+            <div id="demo"><li id="demot">でも</li></div>
+            <div id="shikamo"><li id="shikamot">しかも</li></div>
+            <div id="tashika"><li id="tashikat">たしかに</li></div>
+            <div id="yappari"><li id="yapparit">やっぱり</li></div>
+            <div id="tomoare"><li id="tomoaret">ともあれ</li></div>
+          </ul>
+          <div class="answer"><p id="phrase"></p></div>
+        </div>
+        <div id="judgment">
+          <div id="character"><img src="" alt=""></div>
+          <div id="comment"><p></p></div>
+        </div>
+
+      </main>
 
     </div>
-    
-    <main>
-      <div class="words">
-        <ul><p>いまの気分を選んで</p></ul>
-        <div id="dakara"><li id="dakarat">だから</li></div>
-        <div id="demo"><li id="demot">でも</li></div>
-        <div id="shikamo"><li id="shikamot">しかも</li></div>
-        <div id="tashika"><li id="tashikat">たしかに</li></div>
-        <div id="tsumari"><li id="tsumarit">つまり</li></div>
-        <div id="yappari"><li id="yapparit">やっぱり</li></div>
-        <div id="tomoare"><li id="tomoaret">ともあれ</li></div>
-      </div>
-      <div id="imakimi">
-        <!-- <p>いまのキミは…</p> -->
-        <p>「<span id="sentense">……</span>」</p>
-      </div>
-      <div id="judgment">
-        <img src="./img/Rangers_line_w200.png" alt="">
-      </div>
 
-      <div id="character"><p></p></div> 
-
-    </main>
-    
     <script src="./js/Lab13's.js"></script>
+
 
   </body>
 </html>
