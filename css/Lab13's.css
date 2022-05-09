@@ -4,7 +4,12 @@
 }
 @font-face {
   font-family: "mushin";
-  src: url(./mushin_subset.woff);
+  src: url(./mushin.woff);
+}
+
+@font-face {
+  font-family: "MkPOP";
+  src: url(./851MkPOP_101.woff);
 }
 
 body {
@@ -38,8 +43,13 @@ ul {
 
 .words {
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
+}
 
+.words p {
+  font-family: 'M PLUS 2', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #dakara, #demo, #shikamo, #dakara, #tashika, #tsumari, #yappari, #tomoare {
@@ -66,14 +76,9 @@ li:hover {
   font-weight: bold;
 }
 
+#character {
+  font-family: 'M PLUS 2', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 
-.akajusan {
-  font-size: 14px;
-  border: 2px red solid; 
-  width: 260px;
-  text-align:center;
-}
-
-.akajusan p {
-  margin: 2px;
 }

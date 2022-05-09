@@ -8,63 +8,78 @@ $('#dakara').on('click', function(){
   console.log(n);
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
-    $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');  
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('好きにしちゃいな');
-    $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">'); 
+    $('#character').html('<p class="setsumei">風は吹いてるぜ！</p>')   
   } 
   if(n == 3){
     $('#sentense').html('そういうことなんだ');
-    $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">'); 
+    $('#character').html('<p class="setsumei">ふにおちた？</p>')        
   }
   if(n == 4){
     $('#sentense').html('探そう、あきらめるな');
-    $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">'); 
+    $('#character').html('<p class="setsumei">絶対見つかる</p>')        
   } 
   if(n == 5){
     $('#sentense').html('その調子でいこう');
-    $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">'); 
+    $('#character').html('<p class="setsumei">流れ来てるよ</p>')             
   }
   if(n == 6){
     $('#sentense').html('いいアイデアだ');
-    $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 7){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 8){
     $('#sentense').html('正直でいんじゃない？');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ぼくは味方だよ</p>')        
   } 
   if(n == 9){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')        
   } 
   if(n == 10){
     $('#sentense').html('遊んじゃおう！');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">カモン！レッツゴー</p>')        
   }
   if(n == 11){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')        
   } 
   if(n == 12){
     $('#sentense').html('ゴロゴロ～ダラダラ～');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ぐりんぐりーん</p>')        
   }
   if(n == 13){
     $('#sentense').html('金持ちになっちゃえば？');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')        
   } 
   if(n == 14){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')        
   }
   if(n == 15){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')        
   } 
 
   $('#demo, #shikamo, #tashika, #tsumari, #yappari, #tomoare').off('click')
@@ -82,62 +97,77 @@ $('#demo').on('click', function(){
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('好きにしちゃいな');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">風は吹いてるぜ！</p>')   
   } 
   if(n == 3){
     $('#sentense').html('そういうことなんだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ふにおちた？</p>')   
   }
   if(n == 4){
     $('#sentense').html('探そう、あきらめるな');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">絶対見つかる</p>')     
   } 
   if(n == 5){
     $('#sentense').html('その調子でいこう');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">流れ来てるよ</p>')          
   }
   if(n == 6){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 7){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 8){
     $('#sentense').html('正直でいんじゃない？');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ぼくは味方だよ</p>')     
   } 
   if(n == 9){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')       
   } 
   if(n == 10){
     $('#sentense').html('遊んじゃおう！');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">カモン！レッツゴー</p>')   
   }
   if(n == 11){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')  
   } 
   if(n == 12){
     $('#sentense').html('ゴロゴロ～ダラダラ～');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ぐりんぐりーん</p>')        
   }
   if(n == 13){
     $('#sentense').html('金持ちになっちゃえば？');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')     
   } 
   if(n == 14){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')  
   }
   if(n == 15){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')   
   }
   
   $('#dakara, #shikamo, #tashika, #tsumari, #yappari, #tomoare').off('click')
@@ -155,14 +185,17 @@ $('#shikamo').on('click', function(){
   if(n == 1){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 2){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')           
   }
   if(n == 3){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')     
   }
   if(n == 4){
     $('#sentense').html('ふぇいるふぁーすと');
@@ -184,6 +217,7 @@ $('#tashika').on('click', function(){
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('そういうことなんだ');
@@ -192,30 +226,37 @@ $('#tashika').on('click', function(){
   if(n == 3){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 4){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 5){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')       
   } 
   if(n == 6){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')  
   } 
   if(n == 7){
     $('#sentense').html('金持ちになっちゃえ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')     
   } 
   if(n == 8){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')  
   }
   if(n == 9){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')   
   }
   
   $('#dakara, #demo, #shikamo, #tsumari, #yappari, #tomoare').off('click')
@@ -233,50 +274,62 @@ $('#tsumari').on('click', function(){
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('好きにしちゃいな');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">風は吹いてるぜ！</p>')   
   } 
   if(n == 3){
     $('#sentense').html('そういうことなんだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ふにおちた？</p>')   
   }
   if(n == 4){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 5){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 6){
     $('#sentense').html('正直でいんじゃない？');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');    
-  } 
-  if(n == 7){
+    $('#character').html('<p class="setsumei">ぼくは味方だよ</p>')     
+  }
+    if(n == 7){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')       
   } 
   if(n == 8){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')  
   } 
   if(n == 9){
     $('#sentense').html('ゴロゴロ～ダラダラ～');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ぐりんぐりーん</p>')        
   }
   if(n == 10){
     $('#sentense').html('金持ちになっちゃえば？');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')     
   } 
   if(n == 11){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')  
   }
   if(n == 12){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')   
   }
   
   $('#dakara, #demo, #shikamo, #tashika, #yappari, #tomoare').off('click')
@@ -294,62 +347,77 @@ $('#yappari').on('click', function(){
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('好きにしちゃいな');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">風は吹いてるぜ！</p>')   
   } 
   if(n == 3){
     $('#sentense').html('そういうことなんだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ふにおちた？</p>')   
   }
   if(n == 4){
     $('#sentense').html('探そう、あきらめるな');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">絶対見つかる</p>')     
   } 
   if(n == 5){
     $('#sentense').html('その調子でいこう');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">流れ来てるよ</p>')          
   }
   if(n == 6){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 7){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 8){
     $('#sentense').html('正直でいんじゃない？');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ぼくは味方だよ</p>')     
   } 
   if(n == 9){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')       
   } 
   if(n == 10){
     $('#sentense').html('遊んじゃおう！');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">カモン！レッツゴー</p>')   
   }
   if(n == 11){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')  
   } 
   if(n == 12){
     $('#sentense').html('ゴロゴロ～ダラダラ～');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ぐりんぐりーん</p>')        
   }
   if(n == 13){
     $('#sentense').html('金持ちになっちゃえ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')     
   } 
   if(n == 14){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')  
   }
   if(n == 15){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')   
   }
   
   $('#dakara, #demo, #shikamo, #tashika, #tsumari, #tomoare').off('click')
@@ -367,62 +435,77 @@ $('#tomoare').on('click', function(){
   if(n == 1){
     $('#sentense').html('何か引っかかるんだ');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">もっかい見直そ</p>')
   }
   if(n == 2){
     $('#sentense').html('好きにしちゃいな');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">風は吹いてるぜ！</p>')   
   } 
   if(n == 3){
     $('#sentense').html('そういうことなんだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ふにおちた？</p>')   
   }
   if(n == 4){
     $('#sentense').html('探そう、あきらめるな');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">絶対見つかる</p>')     
   } 
   if(n == 5){
     $('#sentense').html('その調子でいこう');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">流れ来てるよ</p>')          
   }
   if(n == 6){
     $('#sentense').html('いいアイデアだ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">原石輝いてる</p>')        
   } 
   if(n == 7){
     $('#sentense').html('めっちゃ面白い');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">じわじわくる</p>')        
   }
   if(n == 8){
     $('#sentense').html('正直でいんじゃない？');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ぼくは味方だよ</p>')     
   } 
   if(n == 9){
     $('#sentense').html('無理しちゃいかんのよ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ひっとやっすみ～</p>')       
   } 
   if(n == 10){
     $('#sentense').html('遊んじゃおう！');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">カモン！レッツゴー</p>')   
   }
   if(n == 11){
     $('#sentense').html('しゃーない、あきらめよ');
     $('#judgment').html('<img src="./img/Ranger_pink_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">そんなときもあるって</p>')  
   } 
   if(n == 12){
     $('#sentense').html('ゴロゴロ～ダラダラ～');
     $('#judgment').html('<img src="./img/Ranger_green_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">ぐりんぐりーん</p>')        
   }
   if(n == 13){
     $('#sentense').html('金持ちになっちゃえ');
     $('#judgment').html('<img src="./img/Ranger_yellow_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">ゴールドラッシュ！</p>')     
   } 
   if(n == 14){
     $('#sentense').html('逃げ足はやっ');
     $('#judgment').html('<img src="./img/Ranger_blue_w130.png" alt="">');       
+    $('#character').html('<p class="setsumei">フルスロットル！</p>')  
   }
   if(n == 15){
     $('#sentense').html('ふぇいるふぁーすと');
     $('#judgment').html('<img src="./img/Ranger_red_w130.png" alt="">');    
+    $('#character').html('<p class="setsumei">なにはさておき</p>')   
   }
   
   $('#dakara, #demo, #shikamo, #tashika, #tsumari, #yappari').off('click')
