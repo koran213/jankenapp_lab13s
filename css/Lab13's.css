@@ -64,10 +64,17 @@ ul {
   column-count: 3;
 }
 
+
 li {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 24px;
 }
+
+li:hover {
+  font-size: 22px;
+  cursor: pointer;
+}
+
 
 p {
   font-family: 'M PLUS 2', sans-serif;
@@ -80,7 +87,7 @@ p {
   display: flex;
 }
 
-#dakara, #demo, #shikamo, #dakara, #tashika, #tsumari, #yappari, #tomoare {
+.set_a, .set_b, .set_c {
   background-image: url(../img/wood-board_w200h150.png);
   background-repeat: no-repeat;
   height: 50px;
@@ -93,10 +100,6 @@ p {
   margin-right: 0;
   font-size: 18px;
   border-style: hidden;
-}
-
-li:hover {
-  font-size: 22px;
 }
 
 .answer {
